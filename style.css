@@ -1,0 +1,53 @@
+@media only screen and (min-width:320px) and (max-width:959px)
+{
+.left-container{width:100%;}
+.right-container{width:100%;}
+.btn-func{ width:15em;margin: 2%;}
+.item-list{background-color:#EFEFEF!important;color: #000000!important;}
+.item-list[data-attribute="1"],.item-list[data-attribute="8"]{border-left:10px solid #6F98A8;} 
+.item-list[data-attribute="2"],.item-list[data-attribute="4"]{border-left:10px solid #2B8EAD;} 
+.item-list[data-attribute="3"],.item-list[data-attribute="5"],.item-list[data-attribute="9"]{border-left:10px solid #2F454E;} 
+.item-list[data-attribute="6"],.item-list[data-attribute="7"]{border-left:10px solid #BFBFBF;} 
+}
+
+
+
+.homecontainer{width:100%;background-color:#EFEFEF;}
+.left-container{width:100%;}
+.right-container{width:100%;}
+
+#shufflesort > div {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+	min-height: 100px;
+    color: #ffffff;
+    line-height: 150px;
+	font-weight: bold;
+}
+.btn-func
+{
+	background-color: #72C3DC;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4%;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 961px)
+{
+.left-container{width:60%;float:left;float:left;}
+.right-container{width:40%;float:right;}
+#shufflesort > div {
+    width: 33.3%;
+}
+.btn-func
+{
+    width: 50%;
+    padding: 4%;
+    margin: 5% 25%;
+}
+}
+	
